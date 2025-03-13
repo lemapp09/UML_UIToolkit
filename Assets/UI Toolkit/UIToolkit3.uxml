@@ -1,0 +1,15 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainScreen.uss?fileID=7433441132597879392&amp;guid=1b48f71d9bc30de45b2941a364ff9c59&amp;type=3#MainScreen" />
+    <engine:VisualElement name="MainTitleArea" class="MainTitleArea">
+        <engine:Label text="UML &amp; UI Toolkit" name="MainTitle" class="MainTitle" />
+    </engine:VisualElement>
+    <engine:VisualElement name="PageBackground" class="PageBackground" >
+        <engine:ToggleButtonGroup label="Select Time Zone">
+            <engine:Button text="Eastern"/>
+            <engine:Button text="Central"/>
+            <engine:Button text="Mountain"/>
+            <engine:Button text="Pacific"/>
+            <engine:Button text="Alaska"/>
+        </engine:ToggleButtonGroup>
+    </engine:VisualElement>
+</engine:UXML>

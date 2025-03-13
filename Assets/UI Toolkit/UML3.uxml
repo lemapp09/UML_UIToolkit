@@ -1,0 +1,12 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainScreen.uss?fileID=7433441132597879392&amp;guid=1b48f71d9bc30de45b2941a364ff9c59&amp;type=3#MainScreen" />
+    <engine:VisualElement name="MainTitleArea" class="MainTitleArea">
+        <engine:Label text="UML &amp; UI Toolkit" name="MainTitle" class="MainTitle" />
+    </engine:VisualElement>
+    <engine:VisualElement name="PageBackground" class="PageBackground">
+        <engine:VisualElement name="Banner" style="flex-grow: 1; height: 80px; width: 480px; background-image: url(&quot;project://database/Assets/Resurces/Texture/Banner1.png?fileID=2800000&amp;guid=6db917bce6d6a9248a0d199488daaf8e&amp;type=3#Banner1&quot;); background-size: 480px 80px; background-position-x: left 0; background-position-y: top 0; max-height: 80px;" />
+        <engine:Label text="Sample Flowchart&#10;" name="MainTitle" class="MainTitle" style="-unity-font-definition: url(&quot;project://database/Assets/Resurces/Fonts/LibreBaskerville-Bold%20SDF.asset?fileID=11400000&amp;guid=1f704b0c3cd68f04bbecfcdaa912499f&amp;type=2#LibreBaskerville-Bold SDF&quot;); font-size: 24px; height: 10%;" />
+        <engine:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Resurces/Texture/SimpleFlowChart.png?fileID=2800000&amp;guid=cbfae7d9868010e469eedf6da81b5394&amp;type=3#SimpleFlowChart&quot;); background-size: 49% 80%; background-position-x: left 0; background-position-y: top 0;" />
+        <engine:Button text="Home" name="HomeButton" class="HomeButton" style="align-self: auto; align-items: auto; align-content: auto; justify-content: flex-start; -unity-text-align: middle-left; width: 10%;" />
+    </engine:VisualElement>
+</engine:UXML>

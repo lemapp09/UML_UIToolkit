@@ -1,0 +1,31 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainScreen.uss?fileID=7433441132597879392&amp;guid=1b48f71d9bc30de45b2941a364ff9c59&amp;type=3#MainScreen" />
+    <engine:VisualElement name="MainTitleArea" class="MainTitleArea">
+        <engine:Label text="UML &amp; UI Toolkit" name="MainTitle" class="MainTitle" />
+    </engine:VisualElement>
+    <engine:VisualElement name="PageBackground" class="PageBackground">
+        <engine:TabView style="-unity-font-definition: url(&quot;project://database/Assets/Resurces/Fonts/LibreBaskerville-Bold.ttf?fileID=12800000&amp;guid=fc020cb770f01e941b8cacff78703a51&amp;type=3#LibreBaskerville-Bold&quot;); font-size: 36px;">
+            <engine:Tab label="Eastern Time" name="Tab1" style="-unity-font-definition: url(&quot;project://database/Assets/Resurces/Fonts/LibreBaskerville-Bold.ttf?fileID=12800000&amp;guid=fc020cb770f01e941b8cacff78703a51&amp;type=3#LibreBaskerville-Bold&quot;); font-size: 36px;">
+                <engine:Label text="Eastern Time Zone (UTC−05:00)" name="Eastern1" style="font-size: 18px;" />
+                <engine:Label text="Examples: New York, Washington D.C., Miami" name="Eastern2" style="font-size: 18px;" />
+            </engine:Tab>
+            <engine:Tab label="Central Time" name="Tab2" style="-unity-font-definition: url(&quot;project://database/Assets/Resurces/Fonts/LibreBaskerville-Bold.ttf?fileID=12800000&amp;guid=fc020cb770f01e941b8cacff78703a51&amp;type=3#LibreBaskerville-Bold&quot;); font-size: 36px;">
+                <engine:Label text="Central Time Zone (UTC−06:00)" name="Central1" style="font-size: 18px;" />
+                <engine:Label text="Examples: Chicago, Dallas, New Orleans" name="Central2" style="font-size: 18px;" />
+            </engine:Tab>
+            <engine:Tab label="Mountain Time" name="Tab3">
+                <engine:Label text="Mountain Time Zone (UTC−07:00)" name="Mountain1" style="font-size: 18px;" />
+                <engine:Label text="Examples: Denver, Salt Lake City, Phoenix*" name="Mountain2" style="font-size: 18px;" />
+                <engine:Label text="*Arizona does not observe DST except on Navajo Nation." name="Mountain3" style="font-size: 18px;" />
+            </engine:Tab>
+            <engine:Tab label="Pacific Time" name="Tab4">
+                <engine:Label text="Pacific Time Zone (UTC−08:00)" name="Pacific1" style="font-size: 18px;" />
+                <engine:Label text="Examples: Los Angeles, Seattle, San Francisco" name="Pacific2" style="font-size: 18px;" />
+            </engine:Tab>
+            <engine:Tab label="Hawaii-Aleutian Time" name="Tab52">
+                <engine:Label text="Hawaii-Aleutian Time Zone (UTC−10:00)" name="Hawaii1" style="font-size: 18px;" />
+                <engine:Label text="Examples: Honolulu, Aleutian Islands" name="Hawaii2" style="font-size: 18px;" />
+            </engine:Tab>
+        </engine:TabView>
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,14 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainScreen.uss?fileID=7433441132597879392&amp;guid=1b48f71d9bc30de45b2941a364ff9c59&amp;type=3#MainScreen" />
+    <engine:VisualElement name="MainTitleArea" class="MainTitleArea">
+        <engine:Label text="UML &amp; UI Toolkit" name="MainTitle" class="MainTitle" />
+    </engine:VisualElement>
+    <engine:VisualElement name="PageBackground" class="PageBackground">
+        <engine:VisualElement name="Banner" style="flex-grow: 1; height: 80px; width: 480px; background-image: url(&quot;project://database/Assets/Resurces/Texture/Banner1.png?fileID=2800000&amp;guid=6db917bce6d6a9248a0d199488daaf8e&amp;type=3#Banner1&quot;); background-size: 480px 80px; background-position-x: left 0; background-position-y: top 0; max-height: 80px;" />
+        <engine:Label text="UI Toolkit Review&#10;&#10;" name="MainTitle" class="MainTitle" style="-unity-font-definition: url(&quot;project://database/Assets/Resurces/Fonts/LibreBaskerville-Bold%20SDF.asset?fileID=11400000&amp;guid=1f704b0c3cd68f04bbecfcdaa912499f&amp;type=2#LibreBaskerville-Bold SDF&quot;); font-size: 24px; height: 10%;" />
+        <engine:Label text="Basic Elements&#10;" name="BasicElements" style="-unity-font-definition: url(&quot;project://database/Assets/Resurces/Fonts/LibreBaskerville-Bold.ttf?fileID=12800000&amp;guid=fc020cb770f01e941b8cacff78703a51&amp;type=3#LibreBaskerville-Bold&quot;); font-size: 36px; height: 10%; max-height: 10%;" />
+        <engine:Label text="VisualElement &#10;Label&#10;Checkbox&#10;Slider" name="ElementTypes" style="font-size: 24px; margin-left: 35px;" />
+        <engine:Label text="Controls&#10;" name="Controls" style="-unity-font-definition: url(&quot;project://database/Assets/Resurces/Fonts/LibreBaskerville-Bold.ttf?fileID=12800000&amp;guid=fc020cb770f01e941b8cacff78703a51&amp;type=3#LibreBaskerville-Bold&quot;); font-size: 36px; height: 10%; max-height: 10%;" />
+        <engine:Label text="Buttons&#10;Toggles&#10;Text input fields" name="ControlTypes" style="font-size: 24px; margin-left: 35px;" />
+    </engine:VisualElement>
+</engine:UXML>

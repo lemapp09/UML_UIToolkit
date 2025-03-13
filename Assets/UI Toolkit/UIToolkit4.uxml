@@ -1,0 +1,18 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainScreen.uss?fileID=7433441132597879392&amp;guid=1b48f71d9bc30de45b2941a364ff9c59&amp;type=3#MainScreen" />
+    <engine:VisualElement name="MainTitleArea" class="MainTitleArea">
+        <engine:Label text="UML &amp; UI Toolkit" name="MainTitle" class="MainTitle" />
+    </engine:VisualElement>
+    <engine:VisualElement name="PageBackground" class="PageBackground">
+        <engine:Box style="padding: 10px;">
+            <engine:Label text="Icon-Supported Buttons" style="font-size: 36px; -unity-font-style: bold; margin-bottom: 10px; -unity-font-definition: url(&quot;project://database/Assets/Resurces/Fonts/LibreBaskerville-Bold.ttf?fileID=12800000&amp;guid=fc020cb770f01e941b8cacff78703a51&amp;type=3#LibreBaskerville-Bold&quot;);" />
+            <engine:Button text="Text Only" style="margin: 5px; -unity-font-definition: url(&quot;project://database/Assets/Resurces/Fonts/LibreBaskerville-Regular.ttf?fileID=12800000&amp;guid=6a62aaa05cdcfff4cacde48ac116ef47&amp;type=3#LibreBaskerville-Regular&quot;); font-size: 24px;" />
+            <engine:Button icon-image="project://database/Assets/Resurces/Texture/dingbat1.png?fileID=2800000&amp;guid=7bc81592f58a4094c847c6f4ed2323b1&amp;type=3#dingbat1" double-click-selects-word="false" style="margin: 5px;">
+                <engine:Image name="icon" text="Button 1" style="font-size: 24px; -unity-font-definition: url(&quot;project://database/Assets/Resurces/Fonts/LibreBaskerville-Bold.ttf?fileID=12800000&amp;guid=fc020cb770f01e941b8cacff78703a51&amp;type=3#LibreBaskerville-Bold&quot;);" />
+            </engine:Button>
+            <engine:Button text="Play" icon-image="project://database/Assets/Resurces/Texture/dingbat2.png?fileID=2800000&amp;guid=09c02212600a256409f68e7494c4a42a&amp;type=3#dingbat2" name="Button" style="margin: 5px; font-size: 36px; -unity-font-definition: url(&quot;project://database/Assets/Resurces/Fonts/LibreBaskerville-Bold.ttf?fileID=12800000&amp;guid=fc020cb770f01e941b8cacff78703a51&amp;type=3#LibreBaskerville-Bold&quot;);">
+                <engine:Image name="icon" text="Button 2" style="font-size: 24px; -unity-font-definition: url(&quot;project://database/Assets/Resurces/Fonts/LibreBaskerville-Bold.ttf?fileID=12800000&amp;guid=fc020cb770f01e941b8cacff78703a51&amp;type=3#LibreBaskerville-Bold&quot;);" />
+            </engine:Button>
+        </engine:Box>
+    </engine:VisualElement>
+</engine:UXML>

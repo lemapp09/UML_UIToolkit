@@ -1,0 +1,68 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainScreen.uss?fileID=7433441132597879392&amp;guid=1b48f71d9bc30de45b2941a364ff9c59&amp;type=3#MainScreen" />
+    <engine:VisualElement name="Background" picking-mode="Ignore" style="flex-grow: 1; background-color: rgb(217, 217, 217); flex-direction: row;">
+        <engine:Label text="UML &amp; UI Toolkit" name="MainTitle" picking-mode="Ignore" class="MainTitle" />
+    </engine:VisualElement>
+    <engine:VisualElement name="UML_Header" picking-mode="Ignore" class="UML_Header" style="background-color: rgb(255, 255, 255);">
+        <engine:VisualElement name="UMLTitleGraphic" class="UMLTitleGraphic" style="background-image: url(&quot;project://database/Assets/Resurces/Texture/Banner1.png?fileID=2800000&amp;guid=6db917bce6d6a9248a0d199488daaf8e&amp;type=3#Banner1&quot;);" />
+        <engine:VisualElement name="UMLRow1" class="UMLRow1" style="flex-grow: 1;">
+            <engine:VisualElement name="BlankSpace" class="BlankSpace" />
+            <engine:VisualElement name="RightEnd" class="RightSpace">
+                <engine:VisualElement name="Dingbat" class="Dingbat" />
+                <engine:Label text="What is UML?" name="UMLText1" class="UMLText1" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="UMLRow2" class="UMLRow2" style="flex-grow: 1;">
+            <engine:VisualElement name="BlankSpace" class="BlankSpace" />
+            <engine:VisualElement name="RightEnd" class="RightSpace">
+                <engine:VisualElement name="Dingbat" class="Dingbat" />
+                <engine:Label text="What is Flowcharting in Game Development?" name="UMLText2" class="UMLText2" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="UMLRow3" class="UMLRow3" style="flex-grow: 1;">
+            <engine:VisualElement name="BlankSpace" class="BlankSpace" />
+            <engine:VisualElement name="RightEnd" class="RightSpace">
+                <engine:VisualElement name="Dingbat" class="Dingbat" />
+                <engine:Label text="Applications of Flowcharting" name="UMLText3" class="UMLText3" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+    <engine:VisualElement name="UI_Toolkit_Header" picking-mode="Ignore" class="UI_Toolkit_Header">
+        <engine:VisualElement name="UIToolkitTitleGraphic" class="UIToolkitTitleGraphic" />
+        <engine:VisualElement name="UIToolkitRow1" class="UIToolkitRow1" style="flex-grow: 1;">
+            <engine:VisualElement name="BlankSpace" class="BlankSpace" />
+            <engine:VisualElement name="RightEnd" class="RightSpace">
+                <engine:VisualElement name="Dingbat" class="Dingbat" />
+                <engine:Label text="UIToolkit Review" name="UIToolkitText1" class="UIToolkitText1" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="UIToolkitRow2" class="UIToolkitRow2" style="flex-grow: 1;">
+            <engine:VisualElement name="BlankSpace" class="BlankSpace" />
+            <engine:VisualElement name="RightEnd" class="RightSpace">
+                <engine:VisualElement name="Dingbat" class="Dingbat" />
+                <engine:Label text="Tabview" name="UIToolkitText2" class="UIToolkitText2" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="UIToolkitRow3" class="UIToolkitRow3" style="flex-grow: 1;">
+            <engine:VisualElement name="BlankSpace" class="BlankSpace" />
+            <engine:VisualElement name="RightEnd" class="RightSpace">
+                <engine:VisualElement name="Dingbat" class="Dingbat" />
+                <engine:Label text="ToggleButtonGroup" name="UIToolkitText3" class="UIToolkitText3" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="UIToolkitRow4" class="UIToolkitRow4" style="flex-grow: 1;">
+            <engine:VisualElement name="BlankSpace" class="BlankSpace" />
+            <engine:VisualElement name="RightEnd" class="RightSpace">
+                <engine:VisualElement name="Dingbat" class="Dingbat" />
+                <engine:Label text="Icon-Supported Buttons" name="UIToolkitText4" class="UIToolkitText4" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="UIToolkitRow5" class="UIToolkitRow5" style="flex-grow: 1;">
+            <engine:VisualElement name="BlankSpace" class="BlankSpace" />
+            <engine:VisualElement name="RightEnd" class="RightSpace">
+                <engine:VisualElement name="Dingbat" class="Dingbat" />
+                <engine:Label text="UXMLAttribute" name="UIToolkitText5" class="UIToolkitText5" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

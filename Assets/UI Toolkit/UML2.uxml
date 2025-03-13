@@ -1,0 +1,50 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainScreen.uss?fileID=7433441132597879392&amp;guid=1b48f71d9bc30de45b2941a364ff9c59&amp;type=3#MainScreen" />
+    <engine:VisualElement name="MainTitleArea" class="MainTitleArea">
+        <engine:Label text="UML &amp; UI Toolkit" name="MainTitle" class="MainTitle" />
+    </engine:VisualElement>
+    <engine:VisualElement name="PageBackground" class="PageBackground">
+        <engine:VisualElement name="Banner" style="flex-grow: 1; height: 80px; width: 480px; background-image: url(&quot;project://database/Assets/Resurces/Texture/Banner1.png?fileID=2800000&amp;guid=6db917bce6d6a9248a0d199488daaf8e&amp;type=3#Banner1&quot;); background-size: 480px 60px;" />
+        <engine:Label text="Free Online&#10;" name="MainTitle" class="MainTitle" style="-unity-font-definition: url(&quot;project://database/Assets/Resurces/Fonts/LibreBaskerville-Bold%20SDF.asset?fileID=11400000&amp;guid=1f704b0c3cd68f04bbecfcdaa912499f&amp;type=2#LibreBaskerville-Bold SDF&quot;); font-size: 24px;" />
+        <engine:ScrollView style="padding-left: 35px; -unity-font-definition: url(&quot;project://database/Assets/Resurces/Fonts/LibreBaskerville-Bold.ttf?fileID=12800000&amp;guid=fc020cb770f01e941b8cacff78703a51&amp;type=3#LibreBaskerville-Bold&quot;);">
+            <engine:Label text="Tools" style="font-size: 20px; -unity-font-style: bold; margin-bottom: 10px;" />
+            <engine:Foldout text="1. Draw.io" value="false">
+                <engine:Label text="Features: Simple interface, supports multiple diagram types (class, sequence, use case, etc.), and integrates with platforms like Google Drive and OneDrive." />
+                <engine:Label text="File Formats: PNG, JPEG, SVG, XML, and more." />
+                <engine:Label text="Pros: Free, browser-based, and easy to use for beginners." />
+            </engine:Foldout>
+            <engine:Foldout text="2. Lucidchart" value="false">
+                <engine:Label text="Features: Real-time collaboration, pre-built templates for UML diagrams, and integration with tools like Slack, Asana, and Salesforce." />
+                <engine:Label text="File Formats: CSV, SVG, PNG, JPG, PDF." />
+                <engine:Label text="Free Plan: Lifetime free basic plan with limited features." />
+            </engine:Foldout>
+            <engine:Foldout text="3. Visual Paradigm Community Edition" value="false">
+                <engine:Label text="Features: Comprehensive UML support (UML 2.x), ERD for database modeling, and basic diagramming tools." />
+                <engine:Label text="Pros: Free for personal and non-commercial use; robust features for advanced users." />
+            </engine:Foldout>
+            <engine:Foldout text="4. UMLet" value="false">
+                <engine:Label text="Features: Open-source tool with a simple interface; supports text-based creation of sequence and activity diagrams." />
+                <engine:Label text="Pros: Lightweight and fast; ideal for quick diagramming." />
+                <engine:Label text="Platforms: Windows, MacOS, Linux." />
+            </engine:Foldout>
+            <engine:Foldout text="5. Creately" value="false">
+                <engine:Label text="Features: Advanced diagramming with 70+ diagram types, real-time collaboration, and integration with Google Drive and Slack." />
+                <engine:Label text="Free Plan: Includes 100MB of storage and access to basic features." />
+            </engine:Foldout>
+            <engine:Foldout text="6. FigJam (by Figma)" value="false">
+                <engine:Label text="Features: Collaborative tool for UML diagrams; supports brainstorming and workflow visualization." />
+                <engine:Label text="Free Plan: Good for team collaboration on simple diagrams." />
+            </engine:Foldout>
+            <engine:Foldout text="7. Gliffy" value="false">
+                <engine:Label text="Features: Supports all 14 UML diagram types; integrates with Atlassian tools like Jira and Confluence." />
+                <engine:Label text="Free Plan: Limited functionality but sufficient for basic UML needs." />
+            </engine:Foldout>
+            <engine:Foldout text="8. Modelio" value="false">
+                <engine:Label text="Features: Open-source tool with support for both UML and BPMN diagrams; extensible with plugins." />
+                <engine:Label text="Pros: Free to download; supports Java code generation and HTML model publishing." />
+            </engine:Foldout>
+        </engine:ScrollView>
+        <engine:VisualElement style="flex-grow: 1;" />
+        <engine:Button text="Home" name="HomeButton" class="HomeButton" style="align-self: auto; align-items: auto; align-content: auto; justify-content: flex-start; -unity-text-align: middle-left; width: 18%;" />
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,278 @@
+VisualElement {
+}
+
+.MainTitleArea {
+    flex-direction: row;
+    flex-grow: 1;
+    background-color: rgb(217, 217, 217);
+}
+
+.TitleRow {
+    flex-grow: 1;
+    background-color: rgb(217, 217, 217);
+    width: 100%;
+    height: 10%;
+    flex-direction: row;
+}
+
+.MainTitle {
+    -unity-font-definition: url("project://database/Assets/Resurces/Fonts/Colleged%20SDF.asset?fileID=11400000&guid=dbd02c4d1513fd14ba10cda6589fafc8&type=2#Colleged SDF");
+    font-size: 72px;
+    margin-top: 15px;
+    margin-right: 15px;
+    background-size: 50% 100%;
+    width: 50%;
+}
+
+.HomeButton {
+    width: 10%;
+    font-size: 48px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    left: 10%;
+}
+
+.QuitButton {
+    width: 10%;
+    font-size: 48px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    left: 20%;
+}
+
+.unity-button:hover {
+    background-color: darkgrey;
+    scale: 1.1 1.1;
+}
+
+.unity-button:hover:enabled {
+    background-color: darkgrey;
+    scale: 1.1 1.1;
+}
+
+.unity-button {
+    transition-property: scale, background-color;
+    transition-duration: 0.25s;
+}
+
+.unity-button:hover:enabled {
+    background-color: darkgrey;
+    scale: 1.1 1.1;
+}
+
+.PageBackground {
+    flex-grow: 1;
+    height: 90%;
+    background-color: white;
+}
+
+.BlankSpace {
+    width: 33%;
+}
+
+.RightSpace {
+    flex-direction: row;
+    width: 66%;
+}
+
+.Dingbat {
+    flex-grow: 1;
+    background-image: url("project://database/Assets/Resurces/Texture/cards.png?fileID=2800000&guid=fce9a10613187ea4a9c36cb3d5abb166&type=3#cards");
+    width: 36px;
+    height: 36px;
+    background-size: 48px 48px;
+}
+
+.UML_Header {
+    flex-grow: 1;
+    width: 100%;
+    height: 32%;
+    background-color: rgb(255, 255, 255);
+}
+
+.UMLTitleGraphic {
+    flex-grow: 1;
+    width: 33%;
+    height: 25%;
+    background-image: url("project://database/Assets/Resurces/Texture/Banner1.png?fileID=2800000&guid=6db917bce6d6a9248a0d199488daaf8e&type=3#Banner1");
+}
+
+.UMLRow1 {
+    flex-direction: row;
+    height: 25%;
+}
+
+.UMLRow1:hover {
+    background-color: darkgrey;
+}
+
+.UMLText1 {
+    -unity-font-definition: url("project://database/Assets/Resurces/Fonts/LibreBaskerville-Bold.ttf?fileID=12800000&guid=fc020cb770f01e941b8cacff78703a51&type=3#LibreBaskerville-Bold");
+    font-size: 36px;
+    width: 90%;
+}
+
+.UMLRow2 {
+    flex-direction: row;
+    height: 25%;
+    background-color: aliceblue;
+}
+
+.UMLRow2:hover {
+    background-color: darkgrey;
+}
+
+.UMLText2 {
+    -unity-font-definition: url("project://database/Assets/Resurces/Fonts/LibreBaskerville-Bold.ttf?fileID=12800000&guid=fc020cb770f01e941b8cacff78703a51&type=3#LibreBaskerville-Bold");
+    font-size: 36px;
+    width: 90%;
+}
+
+.UMLRow3 {
+    flex-direction: row;
+    height: 25%;
+}
+
+.UMLRow3:hover {
+    background-color: darkgrey;
+}
+
+.UMLText3 {
+    -unity-font-definition: url("project://database/Assets/Resurces/Fonts/LibreBaskerville-Bold.ttf?fileID=12800000&guid=fc020cb770f01e941b8cacff78703a51&type=3#LibreBaskerville-Bold");
+    font-size: 36px;
+    width: 90%;
+}
+
+.UI_Toolkit_Header {
+    flex-grow: 1;
+    width: 100%;
+    height: 68%;
+    background-color: rgb(255, 255, 255);
+}
+
+.UIToolkitTitleGraphic {
+    background-image: url("project://database/Assets/Resurces/Texture/Banner2.png?fileID=2800000&guid=256cf8a6f841deb4d81442e5f886151a&type=3#Banner2");
+    flex-grow: 1;
+    width: 33%;
+    height: 18%;
+    background-color: rgb(255, 255, 255);
+}
+
+.UIToolkitRow1 {
+    flex-direction: row;
+    height: 25%;
+}
+
+.UIToolkitRow1:hover {
+    background-color: darkgrey;
+}
+
+.UIToolkitText1 {
+    -unity-font-definition: url("project://database/Assets/Resurces/Fonts/LibreBaskerville-Bold.ttf?fileID=12800000&guid=fc020cb770f01e941b8cacff78703a51&type=3#LibreBaskerville-Bold");
+    font-size: 36px;
+    width: 90%;
+}
+
+.UIToolkitRow2 {
+    flex-direction: row;
+    height: 25%;
+    background-color: aliceblue;
+}
+
+.UIToolkitRow2:hover {
+    background-color: darkgrey;
+}
+
+.UIToolkitText2 {
+    -unity-font-definition: url("project://database/Assets/Resurces/Fonts/LibreBaskerville-Bold.ttf?fileID=12800000&guid=fc020cb770f01e941b8cacff78703a51&type=3#LibreBaskerville-Bold");
+    font-size: 36px;
+    width: 90%;
+}
+
+.UIToolkitRow3 {
+    flex-direction: row;
+    height: 25%;
+}
+
+.UIToolkitRow3:hover {
+    background-color: darkgrey;
+}
+
+.UIToolkitText3 {
+    -unity-font-definition: url("project://database/Assets/Resurces/Fonts/LibreBaskerville-Bold.ttf?fileID=12800000&guid=fc020cb770f01e941b8cacff78703a51&type=3#LibreBaskerville-Bold");
+    font-size: 36px;
+    width: 90%;
+}
+
+.UIToolkitRow4 {
+    flex-direction: row;
+    height: 25%;
+    background-color: aliceblue;
+}
+
+.UIToolkitRow4:hover {
+    background-color: darkgrey;
+}
+
+.UIToolkitText4 {
+    -unity-font-definition: url("project://database/Assets/Resurces/Fonts/LibreBaskerville-Bold.ttf?fileID=12800000&guid=fc020cb770f01e941b8cacff78703a51&type=3#LibreBaskerville-Bold");
+    font-size: 36px;
+    width: 90%;
+}
+
+.UIToolkitRow5 {
+    flex-direction: row;
+    height: 25%;
+}
+
+.UIToolkitRow5:hover {
+    background-color: darkgrey;
+}
+
+.UIToolkitText5 {
+    -unity-font-definition: url("project://database/Assets/Resurces/Fonts/LibreBaskerville-Bold.ttf?fileID=12800000&guid=fc020cb770f01e941b8cacff78703a51&type=3#LibreBaskerville-Bold");
+    font-size: 36px;
+    width: 90%;
+}
+
+.LeftColumn {
+    flex-grow: 1;
+}
+
+.RightColumn {
+    flex-grow: 1;
+}
+
+.unity-foldout {
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+
+.unity-foldout__toggle {
+    font-size: 16px;
+    -unity-font-style: bold;
+}
+
+.LabelBold{
+    -unity-font-definition: url("project://database/Assets/Resurces/Fonts/LibreBaskerville-Bold.ttf?fileID=12800000&guid=fc020cb770f01e941b8cacff78703a51&type=3#LibreBaskerville-Bold");
+}
